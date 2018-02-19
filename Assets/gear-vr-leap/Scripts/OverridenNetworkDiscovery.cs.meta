@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1e9b58530d3e00945b9fab61d3b91d9d
+timeCreated: 1518980071
+licenseType: Pro
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - leapPrefab: {fileID: 1778123743856044, guid: 22140b479df4b3747bc25acc01aafdc2,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

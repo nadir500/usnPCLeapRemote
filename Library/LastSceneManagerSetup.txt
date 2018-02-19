@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/gear-vr-leap/Scenes/offlineScene.unity
+  isLoaded: 1
+  isActive: 1
