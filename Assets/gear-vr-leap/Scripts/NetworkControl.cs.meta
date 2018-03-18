@@ -1,10 +1,11 @@
 fileFormatVersion: 2
 guid: c7274a07b6482f34bb0c54cce4d97be7
-timeCreated: 1480103185
-licenseType: Free
+timeCreated: 1519649140
+licenseType: Pro
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - leapEventSystem: {fileID: 194374, guid: 8b10486b9212d9f4badcf6c992af0a47, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
