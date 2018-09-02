@@ -11,8 +11,8 @@ public class SendData : MonoBehaviour
 
 
     public ServerStart server;
-    public string[] keywords = new string[] { "go", "stop" };
-    public ConfidenceLevel confidence = ConfidenceLevel.Medium;
+    public string[] keywords = new string[] {"go", "stop" };
+    public ConfidenceLevel confidence;
     protected PhraseRecognizer recognizer;
 
 
@@ -21,15 +21,14 @@ public class SendData : MonoBehaviour
         if (keywords != null)
         {
             recognizer = new KeywordRecognizer(keywords, confidence);
-            recognizer.OnPhraseRecognized += Recognizer_OnPhraseRecognized;
+            recognizer.OnPhraseRecognized += OnPhraseRecognized;
             recognizer.Start();
         }
     }
 
 
-    private void Recognizer_OnPhraseRecognized(PhraseRecognizedEventArgs args)
+    private void OnPhraseRecognized(PhraseRecognizedEventArgs args)
     {
-      
        SendDataRecogntionAsString(args.text);
         Debug.Log("result talking = " + args.text);
     }
@@ -49,12 +48,5 @@ public class SendData : MonoBehaviour
     }
 
 
-    private void OnApplicationQuit()
-    {
-        if (recognizer != null && recognizer.IsRunning)
-        {
-            recognizer.OnPhraseRecognized -= Recognizer_OnPhraseRecognized;
-            recognizer.Stop();
-        }
-    }
+   
 }
