@@ -13,6 +13,7 @@ public class SendData : MonoBehaviour
     public ServerStart server;
     public string[] keywords = new string[] {"go", "stop" };
     public ConfidenceLevel confidence;
+    public Text txtLabel;
     protected PhraseRecognizer recognizer;
 
 
@@ -29,6 +30,7 @@ public class SendData : MonoBehaviour
 
     private void OnPhraseRecognized(PhraseRecognizedEventArgs args)
     {
+        txtLabel.text = args.text;
        SendDataRecogntionAsString(args.text);
         Debug.Log("result talking = " + args.text);
     }

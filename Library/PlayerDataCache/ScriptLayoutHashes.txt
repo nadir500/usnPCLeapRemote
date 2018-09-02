@@ -1,6 +1,6 @@
 WindowsStandalone
 PlayerPath?
-C:/Users/Nadir Pervez/Desktop/VoiceCommandsUnity/VoiceCommandsExperiment.exe
+C:/Users/Nadir Pervez/Desktop/VoiceCommandsUnity/VoiceCommandsUnity.exe
 SceneListBegin?
 Assets/gear-vr-leap/Scenes/offlineScene.unity
 Assets/gear-vr-leap/Scenes/onlineScene.unity
@@ -95,7 +95,7 @@ f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 b316a19852f352ef398109707ee90da4 Assembly-CSharp.dll:Leap.Unity.RiggedHand
 3b84bc32c899a531e88de458a621ed66 Assembly-CSharp.dll:Leap.Unity.InputModule.SliderShadow
 1524c2414b106ad2d80af18cd7c277ab Assembly-CSharp.dll:Leap.Unity.RuntimeGizmos.RuntimeGizmoManager
-8f663a4a1943de3db931d61a2280bdd8 Assembly-CSharp.dll:.SendData
+076e7b577209e303a57eb40ba4bd7b66 Assembly-CSharp.dll:.SendData
 0f0e8b49d171e61a5fe50bee83f0c573 Assembly-CSharp.dll:Leap.Unity.Space.LeapSphericalSpace
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 4b12dd839b2293f8457cd67cc3610b85 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
